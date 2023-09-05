@@ -1,4 +1,5 @@
 # Portifólio Igor Moraes
+Feito para exibir meus projetos em destaque, fornecer informações sobre mim e links para outras mídias sociais.
 
 ## Princípios
 
