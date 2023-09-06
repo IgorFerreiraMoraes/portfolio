@@ -1,23 +1,23 @@
-<script setup></script>
+<script setup>
+	import ButtonPrimary from './components/ButtonPrimary.vue';
+	import ButtonSecondary from './components/ButtonSecondary.vue';
+	import Title from './components/Title.vue';
+</script>
 
 <template>
 	<main>
-		<h1>Igor Moraes</h1>
-		<h2>Front-end & Designer</h2>
-		<h3>Bora criar algo fascinante juntos</h3>
+		<Title size="large">Igor Moraes</Title>
+		<Title size="medium">Front-end & Designer</Title>
+		<Title size="small">Bora criar algo fascinante juntos</Title>
+		<br />
+		<ButtonPrimary link="https://github.com/"> Conheça </ButtonPrimary>
+		<br />
+		<ButtonSecondary
+			link="https://github.com/"
+			image="./src/assets/images/social/social-instagram.svg"
+			>Instagram</ButtonSecondary
+		>
 	</main>
 </template>
 
-<style scoped>
-	h1 {
-		font: var(--title-large);
-		letter-spacing: -0.8px;
-	}
-	h2 {
-		font: var(--title-medium);
-		letter-spacing: -0.24px;
-	}
-	h3 {
-		font: var(--title-small);
-	}
-</style>
+<style scoped></style>
