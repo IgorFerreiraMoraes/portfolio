@@ -10,6 +10,10 @@
 	--title-large: 700 2.5rem Oswald;
 	--title-medium: 600 1.5rem Oswald;
 	--title-small: 500 0.875rem Oswald;
+
+	--body-large: 700 1.5rem Barlow;
+	--body-medium: 500 1.25rem/150% Barlow;
+	--body-small: 400 1rem/150% Barlow;
 }
 
 *,
@@ -19,13 +23,14 @@
 	margin: 0;
 	padding: 0;
 	border: transparent;
+	text-decoration: none;
 }
 
 body {
 	min-height: 100vh;
 	color: var(--color-text);
+	font-family: 'Barlow';
 	background: var(--color-background);
-	transition: color 0.5s, background-color 0.5s;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
