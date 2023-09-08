@@ -15,7 +15,7 @@
 	.tech-card {
 		background-color: var(--color-white);
 		width: 81.5%;
-		height: 16.8125rem;
+		min-height: 16.8125rem;
 		margin: auto;
 		border-radius: 0.5rem;
 		padding: 3rem 1.5rem;
