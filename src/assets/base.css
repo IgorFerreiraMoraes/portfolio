@@ -27,7 +27,6 @@
 }
 
 body {
-	min-height: 100vh;
 	color: var(--color-text);
 	font-family: 'Barlow';
 	background: var(--color-background);
