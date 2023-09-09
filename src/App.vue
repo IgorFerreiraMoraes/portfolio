@@ -3,9 +3,18 @@
 </script>
 
 <template>
+	<img class="hero-blur" src="./assets/images/background-blur.svg" alt="" />
 	<main>
 		<SectionHero></SectionHero>
 	</main>
 </template>
 
-<style scoped></style>
+<style>
+	.hero-blur {
+		width: 70vw;
+		position: absolute;
+		aspect-ratio: 1 / 1;
+		top: -45vw;
+		left: -20vw;
+	}
+</style>
