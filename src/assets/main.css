@@ -5,3 +5,7 @@
 	width: min(544px, 85vw);
 	font-weight: normal;
 }
+
+#app main section {
+	margin-bottom: 3rem;
+}
