@@ -1,11 +1,13 @@
 <script setup>
 	import SectionHero from './components/SectionHero.vue';
+	import SectionTech from './components/SectionTech.vue';
 </script>
 
 <template>
 	<img class="hero-blur" src="./assets/images/background-blur.svg" alt="" />
 	<main>
 		<SectionHero></SectionHero>
+		<SectionTech></SectionTech>
 	</main>
 </template>
 
