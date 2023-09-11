@@ -57,7 +57,7 @@
 		z-index: -1;
 	}
 	#vue {
-		top: 80%;
+		top: 90%;
 		right: 0;
 		transform: rotate(15deg);
 		filter: blur(1px) drop-shadow(-2px 4px 12px #17252633);
