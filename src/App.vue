@@ -1,5 +1,6 @@
 <script setup>
 	import SectionHero from './components/SectionHero.vue';
+	import SectionProj from './components/SectionProj.vue';
 	import SectionTech from './components/SectionTech.vue';
 </script>
 
@@ -8,6 +9,7 @@
 	<main>
 		<SectionHero></SectionHero>
 		<SectionTech></SectionTech>
+		<SectionProj></SectionProj>
 	</main>
 </template>
 
@@ -18,5 +20,8 @@
 		aspect-ratio: 1 / 1;
 		top: -45vw;
 		left: -20vw;
+	}
+	body {
+		overflow-x: hidden;
 	}
 </style>

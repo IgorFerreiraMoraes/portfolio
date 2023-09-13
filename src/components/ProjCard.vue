@@ -1,5 +1,4 @@
 <script setup>
-	import { ref } from 'vue';
 	import ButtonPrimary from './ButtonPrimary.vue';
 	import ButtonSecondary from './ButtonSecondary.vue';
 
@@ -8,7 +7,7 @@
 	const image_url = `url("${props.image}")`;
 </script>
 <template>
-	<div class="tech-card">
+	<div class="proj-card">
 		<div class="image"></div>
 		<p>
 			<slot></slot>
@@ -20,8 +19,8 @@
 	</div>
 </template>
 <style scoped>
-	.tech-card {
-		width: max(87.39%, 18rem);
+	.proj-card {
+		width: 100%;
 		min-height: 26.9375rem;
 		margin: auto;
 		border-radius: 0.5rem;
