@@ -1,6 +1,9 @@
 <script setup>
 	import ButtonSecondary from './ButtonSecondary.vue';
 	import Title from './Title.vue';
+	import GitHub from '../assets/images/social/social-github.svg';
+	import Behance from '../assets/images/social/social-behance.svg';
+	import LinkedIn from '../assets/images/social/social-linkedin.svg';
 </script>
 <template>
 	<section id="social">
@@ -8,19 +11,19 @@
 		<p>Para conhecer todos meus projetos:</p>
 		<ButtonSecondary
 			link="https://github.com/IgorFerreiraMoraes"
-			image="./src/assets/images/social/social-github.svg"
+			:image="GitHub"
 		>
 			GitHub
 		</ButtonSecondary>
 		<ButtonSecondary
 			link="https://www.behance.net/igorfmoraes"
-			image="./src/assets/images/social/social-behance.svg"
+			:image="Behance"
 		>
 			Behance
 		</ButtonSecondary>
 		<ButtonSecondary
 			link="https://www.linkedin.com/in/moraes-igor/"
-			image="./src/assets/images/social/social-linkedin.svg"
+			:image="LinkedIn"
 		>
 			LinkedIn
 		</ButtonSecondary>

@@ -1,6 +1,8 @@
 <script setup>
 	import Title from './Title.vue';
 	import ProjCard from './ProjCard.vue';
+	import Cocktail from '../assets/images/projects/cocktail-app.avif';
+	import Solarium from '../assets/images/projects/solarium.avif';
 </script>
 <template>
 	<section id="projects">
@@ -8,7 +10,7 @@
 		<div class="projects-area">
 			<div class="projects-cards">
 				<ProjCard
-					image="./src/assets/images/projects/cocktail-app.avif"
+					:image="Cocktail"
 					repository="https://github.com/IgorFerreiraMoraes/cocktail-app"
 					link="https://www.instagram.com/reel/CpzqLDBAK0U/"
 				>
@@ -16,7 +18,7 @@
 					API externa e armazenamento de dados
 				</ProjCard>
 				<ProjCard
-					image="./src/assets/images/projects/solarium.avif"
+					:image="Solarium"
 					repository="https://github.com/IgorFerreiraMoraes/Solarium"
 					link="https://www.behance.net/gallery/162023573/Solarium"
 				>

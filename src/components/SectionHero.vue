@@ -2,6 +2,7 @@
 	import Title from './Title.vue';
 	import ButtonPrimary from './ButtonPrimary.vue';
 	import ButtonSecondary from './ButtonSecondary.vue';
+	import Instagram from '../assets/images/social/social-instagram.svg';
 
 	const link_whatsapp =
 		'https://wa.me/5511941285976?text=Ol%C3%A1,%20Igor!%20Tenho%20interesse%20em%20seus%20servi%C3%A7os,%20vamos%20conversar%20sobre%20como%20voc%C3%AA%20pode%20me%20ajudar?';
@@ -28,7 +29,7 @@
 				>
 				<ButtonSecondary
 					link="https://www.instagram.com/igor.f.moraes/"
-					image="./src/assets/images/social/social-instagram.svg"
+					:image="Instagram"
 					>Instagram</ButtonSecondary
 				>
 			</div>
