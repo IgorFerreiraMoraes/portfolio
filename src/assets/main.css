@@ -9,3 +9,12 @@
 #app main section {
 	margin-bottom: 3rem;
 }
+
+@media (min-width: 1024px) {
+	#app {
+		width: min(1470px, 80vw);
+	}
+	#app main section {
+		margin-bottom: 4rem;
+	}
+}
