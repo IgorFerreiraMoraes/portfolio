@@ -55,5 +55,8 @@
 		.buttons {
 			margin-top: 2.5rem;
 		}
+		p {
+			min-height: 4.5rem;
+		}
 	}
 </style>
