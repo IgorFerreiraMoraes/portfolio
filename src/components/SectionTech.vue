@@ -1,6 +1,19 @@
 <script setup>
+	import { shallowRef } from 'vue';
 	import Title from './Title.vue';
-	import TechCard from './TechCard.vue';
+	import TechCardFront from './TechCardFront.vue';
+	import TechCardDesign from './TechCardDesign.vue';
+	import TechCardCloud from './TechCardCloud.vue';
+
+	const card_list = {
+		front: TechCardFront,
+		design: TechCardDesign,
+		cloud: TechCardCloud,
+	};
+	const current_card = shallowRef(TechCardFront);
+	function change_card(card) {
+		current_card.value = card_list[card];
+	}
 </script>
 <template>
 	<section id="tech">
@@ -15,19 +28,7 @@
 			src="../assets/images/tools/floating-photoshop.svg"
 			alt=""
 		/>
-		<TechCard>
-			<template #title>A Essência</template>
-			<template #content>
-				<img
-					src="../assets/images/tools/tool-nuxt.svg"
-					alt="Nuxt logo"
-				/>
-				Nuxt e
-				<img src="../assets/images/tools/tool-vue.svg" alt="" />
-				Vue são o que uso para construir interfaces web excepcionais e
-				dar vida aos sites.
-			</template>
-		</TechCard>
+		<component :is="current_card" @change-to="change_card"></component>
 		<img
 			class="float"
 			id="vue"

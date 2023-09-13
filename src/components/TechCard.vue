@@ -6,8 +6,7 @@
 			<slot name="content"></slot>
 		</p>
 		<div class="buttons">
-			<button>anterior</button>
-			<button>próximo</button>
+			<slot name="buttons"></slot>
 		</div>
 	</div>
 </template>
@@ -39,16 +38,6 @@
 		width: 100%;
 		justify-content: space-evenly;
 		margin-top: auto;
-	}
-	.buttons > button {
-		background-color: transparent;
-		font: var(--body-small);
-		color: var(--color-secondary);
-		transition: 0.2s;
-		cursor: pointer;
-	}
-	.buttons > button:hover {
-		color: var(--color-main);
 	}
 </style>
 <style>
