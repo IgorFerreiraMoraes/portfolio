@@ -53,15 +53,20 @@
 		column-gap: 2rem;
 		overflow-x: scroll;
 	}
-	::-webkit-scrollbar {
-		width: 4px;
-		height: 4px;
-	}
-	::-webkit-scrollbar-thumb {
-		background-color: var(--color-main);
-		border-radius: 2px;
-	}
-	::-webkit-scrollbar-thumb:hover {
-		background: var(--color-secondary);
+
+	@media (min-width: 1024px) {
+		.projects-area {
+			min-height: 762px;
+		}
+		.projects-area::before {
+			background-position: center;
+		}
+		.projects-cards {
+			padding-top: 3rem;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: 5.5rem;
+			overflow-x: scroll;
+		}
 	}
 </style>

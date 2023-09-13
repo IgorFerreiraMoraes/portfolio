@@ -44,4 +44,16 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 	}
+
+	@media (min-width: 1024px) {
+		.proj-card {
+			min-height: 32rem;
+		}
+		.image {
+			min-height: 15.55rem;
+		}
+		.buttons {
+			margin-top: 2.5rem;
+		}
+	}
 </style>
