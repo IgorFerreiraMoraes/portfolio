@@ -1,4 +1,5 @@
 <script setup>
+	import SectionAbout from './components/SectionAbout.vue';
 	import SectionHero from './components/SectionHero.vue';
 	import SectionProj from './components/SectionProj.vue';
 	import SectionTech from './components/SectionTech.vue';
@@ -10,6 +11,7 @@
 		<SectionHero></SectionHero>
 		<SectionTech></SectionTech>
 		<SectionProj></SectionProj>
+		<SectionAbout></SectionAbout>
 	</main>
 </template>
 
