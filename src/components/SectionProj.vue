@@ -47,6 +47,7 @@
 		z-index: -1;
 	}
 	.projects-cards {
+		padding-top: 4rem;
 		display: grid;
 		grid-template-columns: repeat(2, max(87.39%, 18rem));
 		column-gap: 2rem;
