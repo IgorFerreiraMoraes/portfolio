@@ -39,6 +39,11 @@
 		justify-content: space-evenly;
 		margin-top: auto;
 	}
+	@media (min-width: 1024px) {
+		.tech-card {
+			width: 100%;
+		}
+	}
 </style>
 <style>
 	.tech-card .content > img {
