@@ -2,6 +2,7 @@
 	import SectionAbout from './components/SectionAbout.vue';
 	import SectionHero from './components/SectionHero.vue';
 	import SectionProj from './components/SectionProj.vue';
+	import SectionSocial from './components/SectionSocial.vue';
 	import SectionTech from './components/SectionTech.vue';
 </script>
 
@@ -12,6 +13,7 @@
 		<SectionTech></SectionTech>
 		<SectionProj></SectionProj>
 		<SectionAbout></SectionAbout>
+		<SectionSocial></SectionSocial>
 	</main>
 </template>
 
