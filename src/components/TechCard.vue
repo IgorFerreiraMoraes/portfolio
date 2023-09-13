@@ -43,7 +43,7 @@
 	.buttons > button {
 		background-color: transparent;
 		font: var(--body-small);
-		color: #00b6da;
+		color: var(--color-secondary);
 		transition: 0.2s;
 		cursor: pointer;
 	}
