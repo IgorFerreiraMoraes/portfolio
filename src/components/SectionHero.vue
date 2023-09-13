@@ -9,21 +9,30 @@
 <template>
 	<section id="hero">
 		<span>Vivamus gravida, nunc egestas faucibus porttitor</span>
-		<Title size="large">Igor Moraes</Title>
-		<Title size="medium">Front-end & Designer</Title>
-		<p>
-			Transformando ideias em realidade através de design e
-			desenvolvimento web. Vem subir sua visibilidade online comigo!
-		</p>
-		<img src="../assets/images/raven.svg" alt="" />
-		<ButtonPrimary :link="link_whatsapp" style="margin-bottom: 1.5rem"
-			>Entrar em contato</ButtonPrimary
-		>
-		<ButtonSecondary
-			link="https://www.instagram.com/igor.f.moraes/"
-			image="./src/assets/images/social/social-instagram.svg"
-			>Instagram</ButtonSecondary
-		>
+		<div id="hero-content">
+			<div id="hero-text">
+				<Title size="large">Igor Moraes</Title>
+				<Title size="medium">Front-end & Designer</Title>
+				<p>
+					Transformando ideias em realidade através de design e
+					desenvolvimento web. Vem subir sua visibilidade online
+					comigo!
+				</p>
+				<img src="../assets/images/raven.svg" alt="" />
+			</div>
+			<div id="hero-buttons">
+				<ButtonPrimary
+					:link="link_whatsapp"
+					style="margin-bottom: 1.5rem"
+					>Entrar em contato</ButtonPrimary
+				>
+				<ButtonSecondary
+					link="https://www.instagram.com/igor.f.moraes/"
+					image="./src/assets/images/social/social-instagram.svg"
+					>Instagram</ButtonSecondary
+				>
+			</div>
+		</div>
 	</section>
 </template>
 <style scoped>
@@ -52,5 +61,23 @@
 		top: 18%;
 		left: 35%;
 		z-index: -1;
+	}
+
+	@media (min-width: 1024px) {
+		#hero-content {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			column-gap: 5.5rem;
+			align-items: center;
+		}
+		span {
+			text-align: left;
+			margin-bottom: 6.2rem;
+		}
+		img {
+			width: min(30%, 15rem);
+			top: 25%;
+			left: 18%;
+		}
 	}
 </style>
