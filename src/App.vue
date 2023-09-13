@@ -4,6 +4,7 @@
 	import SectionProj from './components/SectionProj.vue';
 	import SectionSocial from './components/SectionSocial.vue';
 	import SectionTech from './components/SectionTech.vue';
+	import SectionThanks from './components/SectionThanks.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@
 		<SectionProj></SectionProj>
 		<SectionAbout></SectionAbout>
 		<SectionSocial></SectionSocial>
+		<SectionThanks></SectionThanks>
 	</main>
 </template>
 
