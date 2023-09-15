@@ -19,7 +19,7 @@
 		</template>
 		<template #buttons>
 			<button @click="$emit('change-to', 'design')">anterior</button>
-			<button class="inactive">próximo</button>
+			<button tabindex="-1" disabled class="inactive">próximo</button>
 		</template>
 	</TechCard>
 </template>

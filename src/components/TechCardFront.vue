@@ -12,7 +12,7 @@
 			vida aos sites.
 		</template>
 		<template #buttons>
-			<button class="inactive">anterior</button>
+			<button tabindex="-1" disabled class="inactive">anterior</button>
 			<button @click="$emit('change-to', 'design')">próximo</button>
 		</template>
 	</TechCard>
