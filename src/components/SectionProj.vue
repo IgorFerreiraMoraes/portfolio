@@ -43,9 +43,8 @@
 		transform: translateX(-50%);
 		width: 100vw; /* Make it 100% of the viewport width */
 		height: 100%; /* Make it 100% of the .section height */
-		background: url('../assets/images/projects/projects-background.png');
-		background-repeat: no-repeat;
-		background-size: cover;
+		background: url('../assets/images/projects/projects-background.avif');
+		background-size: 100%;
 		z-index: -1;
 	}
 	.projects-cards {
@@ -61,7 +60,7 @@
 			min-height: 762px;
 		}
 		.projects-area::before {
-			background-position: center;
+			background-position: 0 -8rem;
 		}
 		.projects-cards {
 			padding-top: 3rem;
