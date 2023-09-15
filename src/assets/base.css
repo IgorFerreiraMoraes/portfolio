@@ -2,7 +2,8 @@
 
 :root {
 	--color-main: #00f4ff;
-	--color-secondary: #00b6da;
+	--color-secondary: #0079a1;
+	--color-secondary-bright: #00b6da;
 	--color-text: #ebebeb;
 	--color-white: #fcfdfd;
 	--color-background: #172526;
@@ -27,8 +28,8 @@
 	text-decoration: none;
 }
 
-*:focus {
-	outline: 1px solid var(--color-secondary);
+*:focus-visible {
+	outline: 1px solid var(--color-secondary-bright);
 	border-radius: 2px;
 }
 
@@ -49,7 +50,7 @@ body {
 	border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--color-main);
+	background-color: var(--color-secondary-bright);
 }
 @media (min-width: 1024px) {
 	:root {

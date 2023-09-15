@@ -23,20 +23,3 @@
 		</template>
 	</TechCard>
 </template>
-<style scoped>
-	button {
-		background-color: transparent;
-		font: var(--body-small);
-		color: var(--color-secondary);
-		transition: 0.2s;
-		cursor: pointer;
-	}
-	button:hover {
-		color: var(--color-main);
-	}
-	button.inactive,
-	button.inactive:hover {
-		color: var(--color-text);
-		cursor: auto;
-	}
-</style>

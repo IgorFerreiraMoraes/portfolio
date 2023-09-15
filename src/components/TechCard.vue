@@ -50,4 +50,19 @@
 		width: 1.6875rem;
 		vertical-align: bottom;
 	}
+	.buttons button {
+		background-color: transparent;
+		font: var(--body-small);
+		color: var(--color-secondary);
+		transition: 0.2s;
+		cursor: pointer;
+	}
+	.buttons button:hover {
+		color: var(--color-secondary-bright);
+	}
+	.buttons button.inactive,
+	.buttons button.inactive:hover {
+		color: var(--color-text);
+		cursor: auto;
+	}
 </style>

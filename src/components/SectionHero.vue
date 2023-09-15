@@ -9,7 +9,9 @@
 </script>
 <template>
 	<section id="hero">
-		<span>Vivamus gravida, nunc egestas faucibus porttitor</span>
+		<span aria-hidden="true"
+			>Vivamus gravida, nunc egestas faucibus porttitor</span
+		>
 		<div id="hero-content">
 			<div id="hero-text">
 				<Title size="large">Igor Moraes</Title>
