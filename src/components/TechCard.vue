@@ -49,6 +49,7 @@
 	.tech-card .content > img {
 		width: 1.6875rem;
 		vertical-align: bottom;
+		aspect-ratio: 1 / 1;
 	}
 	.buttons button {
 		background-color: transparent;

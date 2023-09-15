@@ -6,11 +6,13 @@
 		<template #title>A Estética</template>
 		<template #content>
 			<img
+				width="1.6875rem"
 				src="../assets/images/tools/tool-photoshop.svg"
 				alt="Logo do Photoshop"
 			/>
 			Photoshop e
 			<img
+				width="1.6875rem"
 				src="../assets/images/tools/tool-figma.svg"
 				alt="Logo do Figma"
 			/>

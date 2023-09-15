@@ -11,6 +11,7 @@
 			v-if="image"
 			:src="image"
 			:alt="'Logo do ' + $slots.default()[0].children"
+			width="1.35rem"
 		/>
 		<a :href="link" target="_blank">
 			<slot></slot>
@@ -46,6 +47,7 @@
 	img {
 		margin-right: 4px;
 		width: 1.35rem;
+		aspect-ratio: 1 / 1;
 		transition: 0.2s;
 	}
 	div:hover > img {
