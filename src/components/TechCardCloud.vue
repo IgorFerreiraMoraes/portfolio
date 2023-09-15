@@ -7,12 +7,12 @@
 		<template #content>
 			<img
 				src="../assets/images/tools/tool-firebase.svg"
-				alt="Photoshop logo"
+				alt="Logo do Firebase"
 			/>
 			Firebase e
 			<img
 				src="../assets/images/tools/tool-vercel.svg"
-				alt="Figma Logo"
+				alt="Logo da Vercel"
 			/>
 			Vercel são plataformas que fornecem serviços como hospedagem e
 			autenticação.

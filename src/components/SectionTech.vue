@@ -27,13 +27,13 @@
 				class="float"
 				id="ps"
 				src="../assets/images/tools/floating-photoshop.svg"
-				alt=""
+				alt="Logo do Photoshop"
 			/>
 			<img
 				class="float"
 				id="vue"
 				src="../assets/images/tools/floating-vue.svg"
-				alt=""
+				alt="Logo do Vue"
 			/>
 		</div>
 		<component :is="current_card" @change-to="change_card"></component>

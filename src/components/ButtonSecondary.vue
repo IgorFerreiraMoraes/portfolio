@@ -7,7 +7,11 @@
 </script>
 <template>
 	<div role="button" @click="open_link">
-		<img v-if="image" :src="image" />
+		<img
+			v-if="image"
+			:src="image"
+			:alt="'Logo do ' + $slots.default()[0].children"
+		/>
 		<a :href="link" target="_blank">
 			<slot></slot>
 		</a>

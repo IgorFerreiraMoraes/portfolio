@@ -7,10 +7,13 @@
 		<template #content>
 			<img
 				src="../assets/images/tools/tool-photoshop.svg"
-				alt="Photoshop logo"
+				alt="Logo do Photoshop"
 			/>
 			Photoshop e
-			<img src="../assets/images/tools/tool-figma.svg" alt="Figma Logo" />
+			<img
+				src="../assets/images/tools/tool-figma.svg"
+				alt="Logo do Figma"
+			/>
 			Figma são o que uso para fazer as composições, prototipagem e artes
 			dos projetos.
 		</template>

@@ -5,9 +5,12 @@
 	<TechCard>
 		<template #title>A Essência</template>
 		<template #content>
-			<img src="../assets/images/tools/tool-nuxt.svg" alt="Nuxt logo" />
+			<img
+				src="../assets/images/tools/tool-nuxt.svg"
+				alt="Logo do Nuxt"
+			/>
 			Nuxt e
-			<img src="../assets/images/tools/tool-vue.svg" alt="" />
+			<img src="../assets/images/tools/tool-vue.svg" alt="Logo do Vue" />
 			Vue são o que uso para construir interfaces web excepcionais e dar
 			vida aos sites.
 		</template>

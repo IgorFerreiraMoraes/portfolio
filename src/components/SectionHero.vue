@@ -19,7 +19,7 @@
 					desenvolvimento web. Vem subir sua visibilidade online
 					comigo!
 				</p>
-				<img src="../assets/images/raven.svg" alt="" />
+				<img src="../assets/images/raven.svg" alt="Logo de um corvo" />
 			</div>
 			<div id="hero-buttons">
 				<ButtonPrimary
