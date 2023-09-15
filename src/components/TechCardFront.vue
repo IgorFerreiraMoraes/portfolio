@@ -20,10 +20,10 @@
 			vida aos sites.
 		</template>
 		<template #buttons>
-			<button tabindex="-1" disabled class="inactive">anterior</button>
-			<button aria-hidden="true" @click="$emit('change-to', 'design')">
-				próximo
+			<button aria-hidden="true" tabindex="-1" disabled class="inactive">
+				anterior
 			</button>
+			<button @click="$emit('change-to', 'design')">próximo</button>
 		</template>
 	</TechCard>
 </template>
